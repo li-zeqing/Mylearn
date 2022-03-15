@@ -19,7 +19,6 @@ public class PersonTest {
 		
 		p1.showAge();
 		
-		
 		int newAge = p1.addAge(2);
 		System.out.println(p1.name + "的新年龄是：" + newAge);
 		
