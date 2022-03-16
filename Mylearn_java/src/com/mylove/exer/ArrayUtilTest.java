@@ -14,5 +14,13 @@ public class ArrayUtilTest {
 		System.out.println("排序后：");
 		util.printArray(arr);
 		
+		//查找指定元素
+		System.out.println("查找：");
+		int index = util.getIndex(arr, 4);
+		if(index >= 0) {
+			System.out.println("找到了，该元素在数组中的下标为" + index);
+		}else {
+			System.out.println("没找到");
+		}
 	}
 }
